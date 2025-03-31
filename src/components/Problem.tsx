@@ -76,7 +76,7 @@ const Problem: React.FC = () => {
         <Content>
           Artificial Intelligence solutions are fundamentally different from classical software products. The ability to scale intelligence will disrupt most industries - and we expect most of this will take place in the next five years.
           <br /><br />
-          Yet, misconceptions, hesitations, and confusion about AI's capabilities mean many businesses will be left behind.
+          Misconceptions, hesitations, and confusion about AI's capabilities mean that many businesses will be left behind.
         </Content>
         <PainPointsContainer>
           <PainPoint>
