@@ -103,6 +103,28 @@ const StepText = styled.p`
   line-height: 1.5;
 `;
 
+const PartnershipSection = styled.div`
+  margin-top: 4rem;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+`;
+
+const PartnershipHeading = styled.h3`
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+`;
+
+const PartnershipText = styled.p`
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 1.5rem;
+`;
+
 const Process: React.FC = () => {
   return (
     <ProcessSection id="process">
@@ -146,6 +168,14 @@ const Process: React.FC = () => {
             </StepContent>
           </Step>
         </StepsContainer>
+        <PartnershipSection>
+          <PartnershipHeading>Your Dedicated AI Partner, Keeping You Ahead of the Curve</PartnershipHeading>
+          <PartnershipText>
+            At the core of our service is a dedicated forward deployed engineer who works directly with your team. 
+            This isn't just a one-time implementation—it's an ongoing partnership where our expert becomes an extension of your team, 
+            continuously evolving your AI capabilities as your business grows and technology advances.
+          </PartnershipText>
+        </PartnershipSection>
       </Container>
     </ProcessSection>
   );

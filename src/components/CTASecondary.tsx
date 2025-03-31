@@ -28,7 +28,7 @@ const LogoImage = styled.img`
 const LogoText = styled.div`
   font-size: 1.8rem;
   font-weight: 700;
-  color: #3a6186;
+  color: #222222;
 `;
 
 const Heading = styled.h3`
@@ -76,10 +76,7 @@ const CTASecondary: React.FC = () => {
         <Heading>Get in Touch</Heading>
         <ContactInfo>
           <ContactItem>
-            Email: <a href="mailto:contact@mainstreetai.com">contact@mainstreetai.com</a>
-          </ContactItem>
-          <ContactItem>
-            Phone: <a href="tel:+15555555555">(555) 555-5555</a>
+            Email: <a href="mailto:info@mainstreetai.com">info@mainstreetai.com</a>
           </ContactItem>
         </ContactInfo>
         <Copyright>

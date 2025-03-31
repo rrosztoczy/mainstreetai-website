@@ -58,7 +58,7 @@ const CTAPrimary: React.FC = () => {
       <Container>
         <Heading>Ready to Transform Your Business with AI?</Heading>
         <Subheading>
-          Schedule a free AI Capability Assessment to discover how secure, enterprise-grade AI can drive growth and efficiency in your organization.
+          Schedule a free AI Capability Assessment to discover how our dedicated AI engineers can partner with your team to drive growth and efficiency through secure, enterprise-grade AI solutions.
         </Subheading>
         <CTAButton href="mailto:contact@mainstreetai.com?subject=AI%20Capability%20Assessment%20Request">
           Schedule Your Assessment

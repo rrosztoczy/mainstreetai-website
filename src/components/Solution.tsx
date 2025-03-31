@@ -66,6 +66,22 @@ const BenefitText = styled.p`
   text-align: center;
 `;
 
+const PartnershipHighlight = styled.div`
+  margin-top: 3rem;
+  padding: 2rem;
+  background-color: #f5f7fa;
+  border-radius: 10px;
+  text-align: center;
+  border-left: 5px solid #3a6186;
+`;
+
+const HighlightText = styled.p`
+  font-size: 1.3rem;
+  line-height: 1.6;
+  color: #333;
+  font-weight: 500;
+`;
+
 const Solution: React.FC = () => {
   return (
     <SolutionSection id="solution">
@@ -104,6 +120,11 @@ const Solution: React.FC = () => {
             </BenefitText>
           </Benefit>
         </BenefitsContainer>
+        <PartnershipHighlight>
+          <HighlightText>
+            Our approach centers on pairing your team with an expert, forward-deployed AI engineer who becomes an extension of your organization—creating a true partnership that evolves with your business needs.
+          </HighlightText>
+        </PartnershipHighlight>
       </Container>
     </SolutionSection>
   );

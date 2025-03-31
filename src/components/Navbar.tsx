@@ -32,7 +32,7 @@ const LogoImage = styled.img`
 const LogoText = styled.div<{ scrolled: boolean }>`
   font-size: 1.5rem;
   font-weight: 700;
-  color: ${({ scrolled }) => scrolled ? '#3a6186' : 'white'};
+  color: ${({ scrolled }) => scrolled ? '#222222' : 'white'};
 `;
 
 const MenuItems = styled.div<{ isOpen: boolean }>`
@@ -127,6 +127,7 @@ const Navbar: React.FC = () => {
         <MenuItem scrolled={scrolled} to="solution" smooth={true} duration={500} onClick={() => setIsOpen(false)}>Solution</MenuItem>
         <MenuItem scrolled={scrolled} to="process" smooth={true} duration={500} onClick={() => setIsOpen(false)}>Process</MenuItem>
         <MenuItem scrolled={scrolled} to="features" smooth={true} duration={500} onClick={() => setIsOpen(false)}>Features</MenuItem>
+        <MenuItem scrolled={scrolled} to="founder" smooth={true} duration={500} onClick={() => setIsOpen(false)}>Founder</MenuItem>
         <MenuItem scrolled={scrolled} to="faq" smooth={true} duration={500} onClick={() => setIsOpen(false)}>FAQ</MenuItem>
         <MenuItem scrolled={scrolled} to="contact" smooth={true} duration={500} onClick={() => setIsOpen(false)}>Contact</MenuItem>
       </MenuItems>

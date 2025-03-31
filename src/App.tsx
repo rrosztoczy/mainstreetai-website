@@ -6,6 +6,7 @@ import Solution from './components/Solution'
 import Process from './components/Process'
 import Features from './components/Features'
 // import Testimonials from './components/Testimonials'
+import Founder from './components/Founder'
 import FAQ from './components/FAQ'
 import CTAPrimary from './components/CTAPrimary'
 import CTASecondary from './components/CTASecondary'
@@ -21,6 +22,7 @@ const App: React.FC = () => {
       <Solution />
       <Process />
       <Features />
+      <Founder />
       {/* <Testimonials /> */}
       <FAQ />
       <CTAPrimary />

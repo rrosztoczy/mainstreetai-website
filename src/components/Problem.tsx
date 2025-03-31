@@ -74,7 +74,7 @@ const Problem: React.FC = () => {
       <Container>
         <SectionHeading>Be the Disruptor.</SectionHeading>
         <Content>
-          Artificial Intelligence solutions are fundamentally different from classical software products, and they are driving transformation in every industry. Most of this will take place over the next five years.
+          Artificial Intelligence solutions are fundamentally different from classical software products. The ability to scale intelligence will disrupt most industries - and we expect most of this will take place in the next five years.
           <br /><br />
           Yet, misconceptions, hesitations, and confusion about AI's capabilities mean many businesses will be left behind.
         </Content>

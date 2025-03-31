@@ -72,33 +72,33 @@ const IconWrapper = styled.span`
 const faqItems: FAQItemType[] = [
   {
     id: 1,
-    question: "What makes MainStreet AI different from other AI solutions?",
-    answer: "MainStreet AI focuses on deploying secure, enterprise-grade AI within your own infrastructure, ensuring complete data sovereignty and privacy. Unlike cloud-based solutions that send your data to external servers, our approach keeps your sensitive information within your control while still providing advanced AI capabilities."
+    question: "What makes Mainstreet AI different from other AI solutions?",
+    answer: "We are not a Saas company - we are a services company the believes in true partnership. The technology we deploy becomes yours - it is our job to help you capitalize on the opportunities it creates and continue to evolve as your business grows."
   },
   {
     id: 2,
     question: "Do I need technical expertise to implement your AI solutions?",
-    answer: "No. Our team handles the technical implementation and provides comprehensive training for your team. We work closely with you to understand your business needs and ensure a smooth integration with your existing systems and workflows."
+    answer: "No, but we are happy to work with technical teams. Our team can handle the technical implementation and provides comprehensive training for yours. We work closely with you to understand your business needs and ensure a smooth integration with your existing systems and workflows."
   },
   {
     id: 3,
     question: "How long does it take to implement your AI solutions?",
-    answer: "Implementation timelines vary based on the complexity of your needs and existing infrastructure. Typically, our initial assessment and basic implementation can be completed within 4-6 weeks, with more complex integrations taking 2-3 months. We provide a detailed timeline during our initial consultation."
+    answer: "Typically, our initial assessment and basic implementation can be completed within weeks, with more complex integrations taking 2-3 months. We provide a detailed timeline during our initial consultation."
   },
   {
     id: 4,
     question: "What kind of ROI can I expect from implementing AI?",
-    answer: "Our clients typically see ROI in three main areas: increased operational efficiency (20-40% reduction in process time), improved decision-making through better data insights, and enhanced customer experiences. During our assessment, we'll identify specific metrics relevant to your business and establish baseline measurements to track improvement."
+    answer: "During our assessment, we'll identify specific opportunities relevant to your business and establish baseline measurements to track improvement. If we don't think 3-10x ROI is achievable within the first two years, we are not the right partner for you."
   },
   {
     id: 5,
-    question: "How do you ensure the security of our data?",
-    answer: "Security is our top priority. We deploy AI models within your existing secure environment, ensuring your data never leaves your control. We implement end-to-end encryption, role-based access controls, and follow industry best practices for security. Additionally, we can work with your security team to address any specific compliance requirements."
+    question: "What ongoing support do you provide after implementation?",
+    answer: "Our standard agreement includes ongoing support and AI advisory, new feature and capability development, and access to the newest models and tools. Additional consulting and custom development are also available."
   },
   {
     id: 6,
-    question: "What ongoing support do you provide after implementation?",
-    answer: "We offer comprehensive support packages that include regular maintenance, performance monitoring, model updates, and technical support. We also provide ongoing training for your team as capabilities evolve and can help you identify new opportunities to leverage AI as your business grows."
+    question: "How does your partnership model work?",
+    answer: "Our core service includes a dedicated forward deployed engineer who works directly with your team. This expert becomes an extension of your organization, understanding your business needs and continuously evolving your AI capabilities. Rather than a one-time implementation, we establish an ongoing partnership to ensure your AI solutions grow with your business and adapt to new technological advancements."
   }
 ];
 
