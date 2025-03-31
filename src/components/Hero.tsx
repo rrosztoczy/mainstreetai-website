@@ -68,9 +68,12 @@ const Hero: React.FC = () => {
   return (
     <HeroSection id="home">
       <HeroContent>
-        <Headline>AI is Disrupting Everything. The Time to Act is Now.</Headline>
+        <Headline>Artificial Intelligence is already disrupting your industry. The time to act is now.</Headline>
         <Subheadline>
-          Own your intelligence. Deploy secure, enterprise-grade AI within your business today and lead the transformation of the next 5 years.
+          The intelligence you apply in your business is too important to leave to a third party. It is time for you to take control with enterprise-grade AI deployed in your own infrastructure.
+        </Subheadline>
+        <Subheadline>
+          Your data. Your intelligence. Your business.
         </Subheadline>
         <Link to="contact" smooth={true} duration={500}>
           <CTAButton>

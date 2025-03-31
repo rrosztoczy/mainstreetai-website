@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { FaRobot, FaChartLine, FaUserShield, FaTools } from 'react-icons/fa';
+import { FaRobot, FaChartLine, FaUserShield, FaTools, FaComments } from 'react-icons/fa';
 
 const FeaturesSection = styled.section`
   padding: 5rem 1rem;
@@ -108,10 +108,29 @@ const Features: React.FC = () => {
               Deploy powerful AI models within your secure environment, ensuring complete data privacy and sovereignty.
             </FeatureDescription>
             <FeatureList>
-              <FeatureItem>On-premises or private cloud deployment options</FeatureItem>
+              <FeatureItem>Private cloud deployments</FeatureItem>
               <FeatureItem>End-to-end encryption for all data</FeatureItem>
+              <FeatureItem>Leverage existing privacy and security policies</FeatureItem>
               <FeatureItem>No external data sharing or model training</FeatureItem>
               <FeatureItem>Full compliance with industry regulations</FeatureItem>
+            </FeatureList>
+          </FeatureContent>
+        </FeatureBlock>
+        
+        <FeatureBlock>
+          <FeatureImage>
+            <FaComments />
+          </FeatureImage>
+          <FeatureContent>
+            <FeatureTitle>Custom AI Assistants</FeatureTitle>
+            <FeatureDescription>
+              Create purpose-built AI assistants with the tools, data, and capabilities they need to excel at specific tasks.
+            </FeatureDescription>
+            <FeatureList>
+              <FeatureItem>Customer personal and team specific assistants</FeatureItem>
+              <FeatureItem>Access to role specific data and tools</FeatureItem>
+              <FeatureItem>Automated task completion</FeatureItem>
+              <FeatureItem>Powerful inference tools</FeatureItem>
             </FeatureList>
           </FeatureContent>
         </FeatureBlock>
@@ -128,8 +147,8 @@ const Features: React.FC = () => {
             <FeatureList>
               <FeatureItem>Automate repetitive tasks with intelligent workflows</FeatureItem>
               <FeatureItem>Extract insights from unstructured data</FeatureItem>
-              <FeatureItem>Reduce processing time by up to 80%</FeatureItem>
-              <FeatureItem>Continuous improvement through machine learning</FeatureItem>
+              <FeatureItem>Reduce processing time and free up resources</FeatureItem>
+              <FeatureItem>Continuously improvement as technology advances</FeatureItem>
             </FeatureList>
           </FeatureContent>
         </FeatureBlock>
@@ -144,8 +163,8 @@ const Features: React.FC = () => {
               Transform your organization's knowledge into an intelligent resource that empowers every team member.
             </FeatureDescription>
             <FeatureList>
-              <FeatureItem>Centralize and organize all company knowledge</FeatureItem>
-              <FeatureItem>Intelligent search and contextual recommendations</FeatureItem>
+              <FeatureItem>Expose siloed company knowledge</FeatureItem>
+              <FeatureItem>Provide business confidence with referenceable answers</FeatureItem>
               <FeatureItem>Automatic knowledge extraction from documents</FeatureItem>
               <FeatureItem>Personalized knowledge delivery based on roles</FeatureItem>
             </FeatureList>
@@ -162,8 +181,8 @@ const Features: React.FC = () => {
               Develop tailored AI applications that address your specific business challenges and opportunities.
             </FeatureDescription>
             <FeatureList>
-              <FeatureItem>Customized AI models for your industry</FeatureItem>
-              <FeatureItem>Integration with existing systems and workflows</FeatureItem>
+              <FeatureItem>Customized AI solutions for your biggest opportunities</FeatureItem>
+              <FeatureItem>Integrate with existing APIs, systems and workflows</FeatureItem>
               <FeatureItem>Ongoing optimization and enhancement</FeatureItem>
               <FeatureItem>Comprehensive training and support</FeatureItem>
             </FeatureList>

@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import mediumLogo from '../assets/medium-logo.jpeg'; // Adjust path as needed
 
 const CTASection = styled.section`
   padding: 4rem 1rem;
@@ -10,6 +11,24 @@ const CTASection = styled.section`
 const Container = styled.div`
   max-width: 900px;
   margin: 0 auto;
+`;
+
+const FooterLogo = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+`;
+
+const LogoImage = styled.img`
+  height: 60px;
+  margin-right: 15px;
+`;
+
+const LogoText = styled.div`
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #3a6186;
 `;
 
 const Heading = styled.h3`
@@ -50,6 +69,10 @@ const CTASecondary: React.FC = () => {
   return (
     <CTASection>
       <Container>
+        <FooterLogo>
+          <LogoImage src={mediumLogo} alt="Mainstreet AI Logo" />
+          <LogoText>Mainstreet AI</LogoText>
+        </FooterLogo>
         <Heading>Get in Touch</Heading>
         <ContactInfo>
           <ContactItem>
@@ -60,7 +83,7 @@ const CTASecondary: React.FC = () => {
           </ContactItem>
         </ContactInfo>
         <Copyright>
-          © {currentYear} MainStreet AI. All rights reserved.
+          © {currentYear} Mainstreet AI. All rights reserved.
         </Copyright>
       </Container>
     </CTASection>

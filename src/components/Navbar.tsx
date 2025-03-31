@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-scroll';
 import { FaBars, FaTimes } from 'react-icons/fa';
+import mediumLogo from '../assets/medium-logo.jpeg'; // Adjust path as needed
 
 const Nav = styled.nav<{ scrolled: boolean }>`
   display: flex;
@@ -18,10 +19,20 @@ const Nav = styled.nav<{ scrolled: boolean }>`
   box-shadow: ${({ scrolled }) => scrolled ? '0 2px 10px rgba(0, 0, 0, 0.1)' : 'none'};
 `;
 
-const Logo = styled.div<{ scrolled: boolean }>`
+const LogoContainer = styled.div`
+  display: flex;
+  align-items: center;
+`;
+
+const LogoImage = styled.img`
+  height: 40px;
+  margin-right: 10px;
+`;
+
+const LogoText = styled.div<{ scrolled: boolean }>`
   font-size: 1.5rem;
   font-weight: 700;
-  color: ${({ scrolled }) => scrolled ? '#1a2a6c' : 'white'};
+  color: ${({ scrolled }) => scrolled ? '#3a6186' : 'white'};
 `;
 
 const MenuItems = styled.div<{ isOpen: boolean }>`
@@ -103,7 +114,10 @@ const Navbar: React.FC = () => {
   
   return (
     <Nav scrolled={scrolled}>
-      <Logo scrolled={scrolled}>MainStreet AI</Logo>
+      <LogoContainer>
+        <LogoImage src={mediumLogo} alt="Mainstreet AI Logo" />
+        <LogoText scrolled={scrolled}>Mainstreet AI</LogoText>
+      </LogoContainer>
       <MenuButton scrolled={scrolled} onClick={toggleMenu}>
         {isOpen ? <FaTimes /> : <FaBars />}
       </MenuButton>

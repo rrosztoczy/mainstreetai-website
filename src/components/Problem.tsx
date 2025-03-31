@@ -72,39 +72,39 @@ const Problem: React.FC = () => {
   return (
     <ProblemSection id="problem">
       <Container>
-        <SectionHeading>Don't Be Disrupted. Be the Disruptor.</SectionHeading>
+        <SectionHeading>Be the Disruptor.</SectionHeading>
         <Content>
-          Artificial Intelligence isn't just another technology—it's driving massive transformation in every industry. Over the next 5 years, companies that embrace AI will achieve dramatic improvements in productivity and efficiency.
+          Artificial Intelligence solutions are fundamentally different from classical software products, and they are driving transformation in every industry. Most of this will take place over the next five years.
           <br /><br />
-          Yet, misconceptions and confusion about AI's capabilities and risks cause hesitation, leaving many businesses behind.
+          Yet, misconceptions, hesitations, and confusion about AI's capabilities mean many businesses will be left behind.
         </Content>
         <PainPointsContainer>
           <PainPoint>
             <PainPointIcon><FaLightbulb /></PainPointIcon>
             <PainPointTitle>Missed Opportunities</PainPointTitle>
             <PainPointText>
-              Misunderstanding AI leads to missed opportunities and competitive disadvantages in a rapidly evolving marketplace.
-            </PainPointText>
-          </PainPoint>
-          <PainPoint>
-            <PainPointIcon><FaShieldAlt /></PainPointIcon>
-            <PainPointTitle>Security & Privacy Risks</PainPointTitle>
-            <PainPointText>
-              Outsourced AI solutions expose your most sensitive data and create serious security vulnerabilities.
+              Misunderstanding AI leads to missed opportunities, lost investments, and competitive disadvantages.
             </PainPointText>
           </PainPoint>
           <PainPoint>
             <PainPointIcon><FaPuzzlePiece /></PainPointIcon>
             <PainPointTitle>Generic Solutions</PainPointTitle>
             <PainPointText>
-              Off-the-shelf AI tools fail to address your unique business challenges and specific workflows.
+              Off-the-shelf AI tools fail to address your unique culture, business challenges, and "jobs to be done".
             </PainPointText>
           </PainPoint>
           <PainPoint>
             <PainPointIcon><FaTrophy /></PainPointIcon>
             <PainPointTitle>Competitive Edge</PainPointTitle>
             <PainPointText>
-              When intelligence is externalized, you surrender one of your most valuable competitive advantages.
+              When intelligence is externalized to tech companies, you surrender your most valuable competitive advantages.
+            </PainPointText>
+          </PainPoint>
+          <PainPoint>
+            <PainPointIcon><FaShieldAlt /></PainPointIcon>
+            <PainPointTitle>Security & Privacy Risks</PainPointTitle>
+            <PainPointText>
+              Outsourced AI solutions can expose your most sensitive data and create serious security vulnerabilities.
             </PainPointText>
           </PainPoint>
         </PainPointsContainer>

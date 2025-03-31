@@ -84,7 +84,7 @@ const Solution: React.FC = () => {
           </Benefit>
           <Benefit>
             <BenefitIcon><FaLock /></BenefitIcon>
-            <BenefitTitle>Total Security</BenefitTitle>
+            <BenefitTitle>Total Control</BenefitTitle>
             <BenefitText>
               Deploy AI solutions within your secure environment, ensuring complete data sovereignty.
             </BenefitText>
