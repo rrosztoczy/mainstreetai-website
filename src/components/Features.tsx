@@ -94,9 +94,9 @@ const FeatureItem = styled.li`
 
 const Features: React.FC = () => {
   return (
-    <FeaturesSection id="features">
+    <FeaturesSection id="private-cloud">
       <Container>
-        <SectionHeading>Enterprise-Grade AI Capabilities</SectionHeading>
+        <SectionHeading>Enterprise-Grade Private Cloud Deployments</SectionHeading>
         
         <FeatureBlock>
           <FeatureImage>
@@ -142,7 +142,7 @@ const Features: React.FC = () => {
           <FeatureContent>
             <FeatureTitle>Intelligent Process Automation</FeatureTitle>
             <FeatureDescription>
-              Transform your business operations with AI-powered automation that learns and improves over time.
+              Transform your business operations with AI-powered automation.
             </FeatureDescription>
             <FeatureList>
               <FeatureItem>Automate repetitive tasks with intelligent workflows</FeatureItem>
@@ -160,7 +160,7 @@ const Features: React.FC = () => {
           <FeatureContent>
             <FeatureTitle>Knowledge Management & Retrieval</FeatureTitle>
             <FeatureDescription>
-              Transform your organization's knowledge into an intelligent resource that empowers every team member.
+              Transform your organization's knowledge into an intelligent resource for every team member.
             </FeatureDescription>
             <FeatureList>
               <FeatureItem>Expose siloed company knowledge</FeatureItem>

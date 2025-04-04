@@ -4,7 +4,6 @@ import Hero from './components/Hero'
 import Solution from './components/Solution'
 import Process from './components/Process'
 import Features from './components/Features'
-// import Testimonials from './components/Testimonials'
 import Founder from './components/Founder'
 import FAQ from './components/FAQ'
 import CTAPrimary from './components/CTAPrimary'
@@ -22,10 +21,9 @@ const App: React.FC = () => {
       <AIEngineering />
       <Workshops />
       <Solution />
-      <Process />
       <Features />
+      <Process />
       <Founder />
-      {/* <Testimonials /> */}
       <FAQ />
       <CTAPrimary />
       <CTASecondary />

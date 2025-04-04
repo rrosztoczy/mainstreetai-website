@@ -60,7 +60,7 @@ const CTAPrimary: React.FC = () => {
         <Subheading>
           Schedule a free AI Capability Assessment to discover how our dedicated AI engineers can partner with your team to drive growth and efficiency through secure, enterprise-grade AI solutions.
         </Subheading>
-        <CTAButton href="mailto:contact@mainstreetai.com?subject=AI%20Capability%20Assessment%20Request">
+        <CTAButton href="mailto:info@mainstreetai.com?subject=AI%20Capability%20Assessment%20Request">
           Schedule Your Assessment
         </CTAButton>
       </Container>

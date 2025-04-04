@@ -83,7 +83,7 @@ const faqItems: FAQItemType[] = [
   {
     id: 3,
     question: "How long does it take to implement your AI solutions?",
-    answer: "Typically, our initial assessment and basic implementation can be completed within weeks, with more complex integrations taking 2-3 months. We provide a detailed timeline during our initial consultation."
+    answer: "Typically, our initial assessment and proof of concepts can be completed within weeks, with more complex projects taking 3-6 months. Organizational adoption can be slower, with mature adoption occuring over a 9-18 month span. We provide a detailed timeline during our initial consultation."
   },
   {
     id: 4,

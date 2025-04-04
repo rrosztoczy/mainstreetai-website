@@ -88,21 +88,28 @@ const Solution: React.FC = () => {
       <Container>
         <SectionHeading>Clear the Confusion. Lead with Intelligence.</SectionHeading>
         <Content>
-          Mainstreet AI provides clear guidance, expert support, and tailored AI solutions within your infrastructure. We help your organization confidently navigate AI transformation.
+          Mainstreet AI provides clear guidance, expert support, and tailored AI solutions within your tool or infrastructure stack.
         </Content>
         <BenefitsContainer>
           <Benefit>
             <BenefitIcon><FaBrain /></BenefitIcon>
-            <BenefitTitle>Expert Guidance</BenefitTitle>
+            <BenefitTitle>Strategic Guidance</BenefitTitle>
             <BenefitText>
               We demystify AI technology and provide strategic guidance tailored to your business objectives.
+            </BenefitText>
+          </Benefit>
+          <Benefit>
+            <BenefitIcon><FaExpand /></BenefitIcon>
+            <BenefitTitle>The Right Intelligence</BenefitTitle>
+            <BenefitText>
+              Apply the right models, tools, and knowledge to the right problems with our expert guidance.
             </BenefitText>
           </Benefit>
           <Benefit>
             <BenefitIcon><FaLock /></BenefitIcon>
             <BenefitTitle>Total Control</BenefitTitle>
             <BenefitText>
-              Deploy AI solutions within your secure environment, ensuring complete data sovereignty.
+              Deploy AI solutions within your secure infrastructure or tool stack.
             </BenefitText>
           </Benefit>
           <Benefit>
@@ -110,13 +117,6 @@ const Solution: React.FC = () => {
             <BenefitTitle>Custom Solutions</BenefitTitle>
             <BenefitText>
               AI tailored precisely to your business needs, processes, and industry challenges.
-            </BenefitText>
-          </Benefit>
-          <Benefit>
-            <BenefitIcon><FaExpand /></BenefitIcon>
-            <BenefitTitle>Scalable Intelligence</BenefitTitle>
-            <BenefitText>
-              Systems that grow with your business and continuously adapt to changing needs.
             </BenefitText>
           </Benefit>
         </BenefitsContainer>

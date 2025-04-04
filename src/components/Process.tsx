@@ -134,7 +134,7 @@ const Process: React.FC = () => {
           <Step>
             <StepNumber>1</StepNumber>
             <StepContent>
-              <StepTitle>Clarification</StepTitle>
+              <StepTitle>Alignment</StepTitle>
               <StepText>
                 We demystify AI technology and identify high-impact opportunities specific to your business. Our team works with you to understand your challenges and set clear objectives.
               </StepText>
@@ -145,7 +145,7 @@ const Process: React.FC = () => {
             <StepContent>
               <StepTitle>Deployment</StepTitle>
               <StepText>
-                We securely install customized AI systems within your environment, configured to your exact specifications and integrated with your existing infrastructure.
+                We securely install the right customized AI systems or tools within your business, configured to your exact specifications and integrated with your existing tool stack or infrastructure.
               </StepText>
             </StepContent>
           </Step>
@@ -171,9 +171,7 @@ const Process: React.FC = () => {
         <PartnershipSection>
           <PartnershipHeading>Your Dedicated AI Partner, Keeping You Ahead of the Curve</PartnershipHeading>
           <PartnershipText>
-            At the core of our service is a dedicated forward deployed engineer who works directly with your team. 
-            This isn't just a one-time implementation—it's an ongoing partnership where our expert becomes an extension of your team, 
-            continuously evolving your AI capabilities as your business grows and technology advances.
+            At the core of our service is a forward deployed engineer who works directly with your team so that we get to know your business and bring our expertise to you.
           </PartnershipText>
         </PartnershipSection>
       </Container>

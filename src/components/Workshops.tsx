@@ -182,6 +182,7 @@ const TestimonialText = styled.p`
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 2rem;
 `;
 
 const TestimonialAuthor = styled.p`
@@ -328,11 +329,15 @@ const Workshops: React.FC = () => {
         <TestimonialSection>
           <TestimonialHeading>What Our Workshop Participants Say</TestimonialHeading>
           <TestimonialText>
-            "Very few times do I have that whole team together exploring something that is new to almost all of us. That was fun! I heard nothing but GREAT feedback on your presentation, your composure, your kindness and excitement."
+            "Very few times do I have that whole team together exploring something that is new to almost all of us. I heard nothing but GREAT feedback on your presentation, your composure, your kindness and excitement."
           </TestimonialText>
           <TestimonialAuthor>— CEO, Financial Technology Company</TestimonialAuthor>
+          <TestimonialText>
+            "It was like yesterday the world was black and white, and now everything is in color."
+          </TestimonialText>
+          <TestimonialAuthor>— Data Analyst, Distribution Company</TestimonialAuthor>
           
-          <CTAButton href="mailto:workshops@mainstreetai.com?subject=Workshop%20Inquiry">
+          <CTAButton href="mailto:info@mainstreetai.com?subject=Workshop%20Inquiry">
             Schedule a Workshop
           </CTAButton>
         </TestimonialSection>

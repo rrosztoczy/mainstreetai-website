@@ -82,15 +82,16 @@ const Founder: React.FC = () => {
             <FounderName>Ryan Rosztoczy</FounderName>
             <FounderTitle>Founder & Chief AI Engineer</FounderTitle>
             <FounderVision>
-              The future that we must make is one in which AI has been democratized by businesses of all types. 
+              The best future is one in which our businesses and people are superpowered by AI. 
               Intelligence cannot be the exclusive domain of tech giants—it must be accessible, 
-              practical, and transformative for every organization. By creating true partnerships with our clients 
-              and deploying expert AI engineers who become extensions of their teams, we're helping businesses own 
-              their AI future rather than being disrupted by it.
+              practical, and transformative for every organization. By educating our clients, creating true partnerships,
+              and deploying expert AI engineers we are helping businesses tranform into their future selves.
+
+              Our clients will be the winners of the AI revolution, and so will we.
             </FounderVision>
             <FounderBio>
               I founded Mainstreet AI to bridge the gap between cutting-edge AI capabilities and practical business applications. Before Mainstreet AI, 
-              I helped build Gather Learning where we worked with prestigous universities and cultural organizations to bring their learning platforms to life. As an AI power user, I immediately realized that the same tools that were transforming software development were also poised to transform every industry.
+              I helped build Gather Learning where we worked with prestigous universities and cultural organizations to bring their learning platforms to life. As a software engineer and AI power user, I immediately realized that the same tools that were transforming software development were also poised to transform every industry.
             </FounderBio>
           </ContentContainer>
         </FounderContainer>

@@ -164,26 +164,22 @@ const AIEngineering: React.FC = () => {
           </ServiceCard>
         </ServicesGrid>
         
-        <CaseStudySection>
+        {/* <CaseStudySection>
           <CaseStudyHeading>Success Stories</CaseStudyHeading>
           <CaseStudyContent>
             <CaseStudyItem>
               <CaseStudyTitle>Financial Services Transformation</CaseStudyTitle>
               <CaseStudyText>
-                We helped a mid-sized financial institution implement an AI-powered document processing system that reduced 
-                manual review time by 85% and improved accuracy by 40%, allowing them to process 3x more applications with the same team.
               </CaseStudyText>
             </CaseStudyItem>
             
             <CaseStudyItem>
               <CaseStudyTitle>Manufacturing Efficiency</CaseStudyTitle>
               <CaseStudyText>
-                Our AI engineers developed a predictive maintenance system for a manufacturing client that reduced unplanned 
-                downtime by 37% and maintenance costs by 25%, resulting in millions in annual savings.
               </CaseStudyText>
             </CaseStudyItem>
           </CaseStudyContent>
-        </CaseStudySection>
+        </CaseStudySection> */}
       </Container>
     </AIEngineeringSection>
   );
