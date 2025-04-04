@@ -56,7 +56,7 @@ const CTAPrimary: React.FC = () => {
   return (
     <CTASection id="contact">
       <Container>
-        <Heading>Ready to Transform Your Business with AI?</Heading>
+        <Heading>Ready to Accelerate Your Business with AI?</Heading>
         <Subheading>
           Schedule a free AI Capability Assessment to discover how our dedicated AI engineers can partner with your team to drive growth and efficiency through secure, enterprise-grade AI solutions.
         </Subheading>

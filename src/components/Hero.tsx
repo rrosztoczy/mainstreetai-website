@@ -68,16 +68,13 @@ const Hero: React.FC = () => {
   return (
     <HeroSection id="home">
       <HeroContent>
-        <Headline>Artificial Intelligence is already disrupting your industry. The time to act is now.</Headline>
+        <Headline>Artificial Intelligence is the greatest opportunity of our lifetime. The time to act is now.</Headline>
         <Subheadline>
-          The intelligence you apply in your business is too important to leave to a third party. It is time for you to take control with enterprise-grade AI deployed in your own infrastructure.
-        </Subheadline>
-        <Subheadline>
-          Your data. Your intelligence. Your business.
+          Our top-tier AI engineers can inspire your team, accelerate adoption, and help tackle mission critical projects using state of the art models, tools, and products. Our motto is "prove that anything is possible" and we can't wait to prove it to you.
         </Subheadline>
         <Link to="contact" smooth={true} duration={500}>
           <CTAButton>
-            Schedule Your AI Capability Assessment
+            Talk to an Engineer
           </CTAButton>
         </Link>
       </HeroContent>

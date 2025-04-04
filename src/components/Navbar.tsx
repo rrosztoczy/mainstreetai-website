@@ -123,12 +123,10 @@ const Navbar: React.FC = () => {
       </MenuButton>
       <MenuItems isOpen={isOpen}>
         <MenuItem scrolled={scrolled} to="home" smooth={true} duration={500} onClick={() => setIsOpen(false)}>Home</MenuItem>
-        <MenuItem scrolled={scrolled} to="problem" smooth={true} duration={500} onClick={() => setIsOpen(false)}>Challenge</MenuItem>
-        <MenuItem scrolled={scrolled} to="solution" smooth={true} duration={500} onClick={() => setIsOpen(false)}>Solution</MenuItem>
-        <MenuItem scrolled={scrolled} to="process" smooth={true} duration={500} onClick={() => setIsOpen(false)}>Process</MenuItem>
-        <MenuItem scrolled={scrolled} to="features" smooth={true} duration={500} onClick={() => setIsOpen(false)}>Features</MenuItem>
-        <MenuItem scrolled={scrolled} to="founder" smooth={true} duration={500} onClick={() => setIsOpen(false)}>Founder</MenuItem>
-        <MenuItem scrolled={scrolled} to="faq" smooth={true} duration={500} onClick={() => setIsOpen(false)}>FAQ</MenuItem>
+        <MenuItem scrolled={scrolled} to="ai-engineering" smooth={true} duration={500} onClick={() => setIsOpen(false)}>AI Engineering</MenuItem>
+        <MenuItem scrolled={scrolled} to="workshops" smooth={true} duration={500} onClick={() => setIsOpen(false)}>Workshops</MenuItem>
+        <MenuItem scrolled={scrolled} to="private-cloud" smooth={true} duration={500} onClick={() => setIsOpen(false)}>Private Cloud Solutions</MenuItem>
+        <MenuItem scrolled={scrolled} to="founder" smooth={true} duration={500} onClick={() => setIsOpen(false)}>About</MenuItem>
         <MenuItem scrolled={scrolled} to="contact" smooth={true} duration={500} onClick={() => setIsOpen(false)}>Contact</MenuItem>
       </MenuItems>
     </Nav>

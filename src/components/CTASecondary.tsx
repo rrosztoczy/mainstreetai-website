@@ -73,7 +73,7 @@ const CTASecondary: React.FC = () => {
           <LogoImage src={mediumLogo} alt="Mainstreet AI Logo" />
           <LogoText>Mainstreet AI</LogoText>
         </FooterLogo>
-        <Heading>Get in Touch</Heading>
+        <Heading>Book a Workshop</Heading>
         <ContactInfo>
           <ContactItem>
             Email: <a href="mailto:info@mainstreetai.com">info@mainstreetai.com</a>
