@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { Link } from 'react-scroll';
 
 const HeroSection = styled.section`
+  position: relative;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -49,9 +50,12 @@ const Subheadline = styled.p`
 /* new italic sub-quote style */
 const Subquote = styled.p`
   font-size: 0.9rem;
-  color: #555;
-  margin: 0.75rem 0 1.5rem;
-  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0;
+  text-align: left;
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
 `;
 
 const CTAButton = styled.button`
@@ -77,28 +81,27 @@ const Hero: React.FC = () => (
     <HeroContent>
       {/* updated headline */}
       <Headline>
-        Businesses leading in AI adoption are outpacing the competition.
+        The businesses leading in AI adoption are winning.
       </Headline>
 
       {/* updated sub-headline */}
       <Subheadline>
-        BCG’s latest AI Adoption report shows that AI-forward companies enjoy&nbsp;
-        <strong>1.5× revenue growth, 1.6× higher shareholder returns,</strong> and&nbsp;
-        <strong>1.4× better ROIC</strong>.<br/>
-        If you’re still wondering where to start—or trying to align scattered pilot projects—
-        there’s a proven path:&nbsp;<em>Align → Jump Start → Evolve</em>.
+        The latest reports show that companies leading AI adoption see higher revenue growth and returns<sup>1</sup>.
       </Subheadline>
 
-      {/* citation line (reference article, no external link) */}
-      <Subquote>
-        <em>Source: Boston Consulting Group, “AI Adoption in 2024,” Oct 24 2024.</em>
-      </Subquote>
+      <Subheadline>
+        If your team is behind, we can help.
+      </Subheadline>
 
       {/* existing CTA button */}
-      <Link to="packages" smooth={true} duration={500}>
-        <CTAButton>See the 3-Step Plan</CTAButton>
+      <Link to="getting-started" smooth={true} duration={500}>
+        <CTAButton>See How to Get Started</CTAButton>
       </Link>
     </HeroContent>
+          {/* citation line (reference article, no external link) */}
+          <Subquote>
+        <em>[1] Source: Boston Consulting Group, “AI Adoption in 2024,” Oct 24 2024.</em>
+      </Subquote>
   </HeroSection>
 );
 

@@ -11,6 +11,7 @@ import CTASecondary from './components/CTASecondary'
 import GlobalStyles from './styles/GlobalStyles'
 import AIEngineering from './components/AIEngineering'
 import Workshops from './components/Workshops'
+import GettingStarted from './components/GettingStarted'
 
 const App: React.FC = () => {
   return (
@@ -18,6 +19,7 @@ const App: React.FC = () => {
       <GlobalStyles />
       <Navbar />
       <Hero />
+      <GettingStarted />
       <AIEngineering />
       <Workshops />
       <Solution />

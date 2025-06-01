@@ -142,10 +142,10 @@ const Navbar: React.FC = () => {
       <MenuItems isOpen={isOpen}>
         <MenuItem scrolled={scrolled} to="home" smooth={true} duration={500} onClick={() => setIsOpen(false)}>Home</MenuItem>
         <MenuItem scrolled={scrolled} to="ai-engineering" smooth={true} duration={500} onClick={() => setIsOpen(false)}>Why AI</MenuItem>
+        <MenuItem scrolled={scrolled} to="getting-started" smooth={true} duration={500} onClick={() => setIsOpen(false)}>Getting Started</MenuItem>
         <MenuItem scrolled={scrolled} to="packages" smooth={true} duration={500} onClick={() => setIsOpen(false)}>Packages</MenuItem>
         <MenuItem scrolled={scrolled} to="process" smooth={true} duration={500} onClick={() => setIsOpen(false)}>Process</MenuItem>
         <MenuItem scrolled={scrolled} to="founder" smooth={true} duration={500} onClick={() => setIsOpen(false)}>About</MenuItem>
-        <MenuItem scrolled={scrolled} to="contact" smooth={true} duration={500} onClick={() => setIsOpen(false)}>Contact</MenuItem>
         <CTAButtonLink href="mailto:info@mainstreetai.com?subject=AI%Fit%20Request">
           Book a Fit Call
         </CTAButtonLink>
