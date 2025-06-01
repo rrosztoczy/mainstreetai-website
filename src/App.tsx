@@ -1,7 +1,6 @@
 import React from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
-import Solution from './components/Solution'
 import Process from './components/Process'
 import Features from './components/Features'
 import Founder from './components/Founder'
@@ -11,6 +10,8 @@ import CTASecondary from './components/CTASecondary'
 import GlobalStyles from './styles/GlobalStyles'
 import AIEngineering from './components/AIEngineering'
 import Workshops from './components/Workshops'
+import Difference from './components/Difference'
+import Services from './components/Services'
 import GettingStarted from './components/GettingStarted'
 
 const App: React.FC = () => {
@@ -22,7 +23,8 @@ const App: React.FC = () => {
       <GettingStarted />
       <AIEngineering />
       <Workshops />
-      <Solution />
+      <Difference />
+      <Services />
       <Features />
       <Process />
       <Founder />

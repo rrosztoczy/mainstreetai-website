@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Link } from 'react-scroll';
 
 /* —————————— styles —————————— */
 const GettingStartedSection = styled.section`
@@ -82,6 +83,7 @@ const PillWrapper = styled.div`
   min-height: 24rem;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   text-align: center;
 `;
 
@@ -116,28 +118,38 @@ const GettingStarted: React.FC = () => (
           <Recommendation>
             <strong>Our recommendation:</strong> Book one of our AI workshops and come out educated, confident, and ready to get started.
           </Recommendation>
-          <Pill href="mailto:info@mainstreetai.com?subject=AI%20Q%26A%20Chat&body=I'd%20like%20to%20schedule%20an%20AI%20Q%26A%20chat%20to%20get%20started.">
+          <Pill
+            as={Link}
+            to="workshops"
+            smooth={true}
+            duration={500}
+          >
             Learn more about our workshops
           </Pill>
         </PillWrapper>
 
         {/* 2 · Loose threads */}
         <PillWrapper>
-          <CardTitle>Loose threads, need alignment</CardTitle>
+          <CardTitle>Looking for a solution</CardTitle>
           <Subtitle>
             <strong>Common scenarios:</strong>
             <ul>
               <li>Teams pursuing isolated pilots or adopting ad‑hoc tools</li>
-              <li>Scattered efforts and missed opportunities</li>
-              <li>Added risk without the reward</li>
+              <li>Too much noise and AI hype disrupting decision making</li>
+              <li>Want to use the best tools, but have custom needs</li>
             </ul>
-            We’ll educate and align your team, surface what’s in motion and what should be in motion, and create a strategic roadmap.
+
           </Subtitle>
           <Recommendation>
-            <strong>Our recommendation:</strong> Schedule an AI Assessment Call to map existing pilots and unify your roadmap.
+            <strong>Our recommendation:</strong> Align your team, deploy state of the art tools, and integrate them into your business.
           </Recommendation>
-          <Pill href="mailto:info@mainstreetai.com?subject=Fit%20Call&body=I'd%20like%20to%20book%20an%20AI%20Assessment%20call.">
-            Book an AI Assessment Call
+          <Pill
+            as={Link}
+            to="difference"
+            smooth={true}
+            duration={500}
+          >
+            Learn more about our services
           </Pill>
         </PillWrapper>
 
@@ -151,13 +163,14 @@ const GettingStarted: React.FC = () => (
               <li>Small or non‑existent tech team</li>
               <li>Limited capacity to progress AI initiatives</li>
             </ul>
-            We augment your resources with expert AI engineers or a fractional head of AI/CTO.
           </Subtitle>
           <Recommendation>
-            <strong>Our recommendation:</strong> Engage our AI Engineering services or fractional AI/CTO to rapidly scale your capabilities.
+            <strong>Our recommendation:</strong> Engage our AI Engineering services or fractional AI/CTO to rapidly deploy and evovle your capabilities.
           </Recommendation>
-          <Pill href="mailto:info@mainstreetai.com?subject=Fit%20Call&body=I'd%20like%20to%20book%20a%20Fit%20call%20to%20improve%20our%20AI%20results.">
-            Book a Fit Call
+          <Pill
+            href="mailto:info@mainstreetai.com?subject=AI%20Fit%20Call&body=I'd%20like%20to%20schedule%20a%20Fit%20Call%20to%20augment%20our%20AI%20resources%20and%20drive%20impact."
+          >
+            Book a fit call
           </Pill>
         </PillWrapper>
       </Pills>
