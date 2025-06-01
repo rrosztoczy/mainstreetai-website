@@ -46,6 +46,14 @@ const Subheadline = styled.p`
   }
 `;
 
+/* new italic sub-quote style */
+const Subquote = styled.p`
+  font-size: 0.9rem;
+  color: #555;
+  margin: 0.75rem 0 1.5rem;
+  text-align: center;
+`;
+
 const CTAButton = styled.button`
   padding: 1rem 2rem;
   font-size: 1.2rem;
@@ -64,22 +72,34 @@ const CTAButton = styled.button`
   }
 `;
 
-const Hero: React.FC = () => {
-  return (
-    <HeroSection id="home">
-      <HeroContent>
-        <Headline>Artificial Intelligence is the greatest opportunity of our lifetime. The time to act is now.</Headline>
-        <Subheadline>
-          Our top-tier AI engineers can inspire your team, accelerate adoption, and help tackle mission critical projects using state of the art models, tools, and products. Our motto is "prove that anything is possible" and we can't wait to prove it to you.
-        </Subheadline>
-        <Link to="contact" smooth={true} duration={500}>
-          <CTAButton>
-            Talk to an Engineer
-          </CTAButton>
-        </Link>
-      </HeroContent>
-    </HeroSection>
-  );
-};
+const Hero: React.FC = () => (
+  <HeroSection id="home">
+    <HeroContent>
+      {/* updated headline */}
+      <Headline>
+        Businesses leading in AI adoption are outpacing the competition.
+      </Headline>
+
+      {/* updated sub-headline */}
+      <Subheadline>
+        BCG’s latest AI Adoption report shows that AI-forward companies enjoy&nbsp;
+        <strong>1.5× revenue growth, 1.6× higher shareholder returns,</strong> and&nbsp;
+        <strong>1.4× better ROIC</strong>.<br/>
+        If you’re still wondering where to start—or trying to align scattered pilot projects—
+        there’s a proven path:&nbsp;<em>Align → Jump Start → Evolve</em>.
+      </Subheadline>
+
+      {/* citation line (reference article, no external link) */}
+      <Subquote>
+        <em>Source: Boston Consulting Group, “AI Adoption in 2024,” Oct 24 2024.</em>
+      </Subquote>
+
+      {/* existing CTA button */}
+      <Link to="packages" smooth={true} duration={500}>
+        <CTAButton>See the 3-Step Plan</CTAButton>
+      </Link>
+    </HeroContent>
+  </HeroSection>
+);
 
 export default Hero; 
