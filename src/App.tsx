@@ -21,10 +21,10 @@ const App: React.FC = () => {
       <Navbar />
       <Hero />
       <GettingStarted />
+      <Services />
+      <Difference />
       <AIEngineering />
       <Workshops />
-      <Difference />
-      <Services />
       <Features />
       <Process />
       <Founder />

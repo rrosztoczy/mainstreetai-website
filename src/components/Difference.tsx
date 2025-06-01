@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Link } from 'react-scroll';
 import { FaHandshake, FaCogs } from 'react-icons/fa';
 
 /* ─────────────────────────── styled components ─────────────────────────── */
@@ -87,6 +88,22 @@ const Bullet = styled.li`
   }
 `;
 
+const CTAButton = styled(Link)`
+  display: inline-block;
+  margin-top: 1.25rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #1a2a6c;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.25s ease;
+
+  &:hover {
+    background-color: #15306a;
+  }
+`;
+
 /* ───────────────────────────── component ───────────────────────────── */
 const Difference: React.FC = () => (
   <DifferenceSection id="difference">
@@ -112,6 +129,9 @@ const Difference: React.FC = () => (
             <Bullet>Our engineers embed with your team to solve the right problems</Bullet>
             <Bullet>Decisions, actions and solutions are communicated automatically</Bullet>
           </BulletList>
+          <CTAButton to="process" smooth={true} duration={500}>
+            Learn how we work
+          </CTAButton>
         </Card>
 
         {/* Technology */}
@@ -125,6 +145,9 @@ const Difference: React.FC = () => (
             <Bullet>Custom deployments mean your system evolves with your business</Bullet>
             <Bullet>One core platform means you stay up to date on state-of-the-art LLMs, Tools, and Features</Bullet>
           </BulletList>
+          <CTAButton to="private-cloud" smooth={true} duration={500}>
+            Learn about our technology
+          </CTAButton>
         </Card>
       </Grid>
     </Container>
