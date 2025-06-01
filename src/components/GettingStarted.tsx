@@ -49,10 +49,28 @@ const Pill = styled.a`
   }
 `;
 
-const Subtitle = styled.p`
+const Subtitle = styled.div`
   font-size: 0.95rem;
   margin-top: 1rem;
   color: #555;
+  text-align: left;
+
+  ul {
+    margin: 0.75rem 0 1.5rem 1.5rem;
+    padding: 0;
+    list-style-position: outside;
+  }
+
+  li {
+    margin-bottom: 0.5rem;
+    list-style-type: disc;
+  }
+`;
+
+const CardTitle = styled.h3`
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+  color: #1a2a6c;
 `;
 
 const PillWrapper = styled.div`
@@ -67,6 +85,16 @@ const PillWrapper = styled.div`
   text-align: center;
 `;
 
+const Recommendation = styled.p`
+  margin: 1rem 0;
+  font-size: 0.95rem;
+  color: #333;
+  text-align: left;
+  strong {
+    font-weight: 600;
+  }
+`;
+
 /* —————————— component —————————— */
 const GettingStarted: React.FC = () => (
   <GettingStartedSection id="getting-started">
@@ -76,38 +104,61 @@ const GettingStarted: React.FC = () => (
       <Pills>
         {/* 1 · Not sure where to start */}
         <PillWrapper>
-          <Pill
-            href="mailto:info@mainstreetai.com?subject=AI%20Q%26A%20Chat&body=I'd%20like%20to%20schedule%20an%20AI%20Q%26A%20chat%20to%20get%20started."
-          >
-            Not sure where to start
-          </Pill>
+          <CardTitle>Not sure where to start</CardTitle>
           <Subtitle>
-            Technology is finally affordable—and understandable. Ask us anything.
+            <strong>Key challenges:</strong>
+            <ul>
+              <li>Don’t fully understand AI yet</li>
+              <li>Unsure how it applies to your business</li>
+              <li>Stakeholders aren’t aligned on a path forward</li>
+            </ul>
           </Subtitle>
+          <Recommendation>
+            <strong>Our recommendation:</strong> Book one of our AI workshops and come out educated, confident, and ready to get started.
+          </Recommendation>
+          <Pill href="mailto:info@mainstreetai.com?subject=AI%20Q%26A%20Chat&body=I'd%20like%20to%20schedule%20an%20AI%20Q%26A%20chat%20to%20get%20started.">
+            Learn more about our workshops
+          </Pill>
         </PillWrapper>
 
         {/* 2 · Loose threads */}
         <PillWrapper>
-          <Pill
-            href="mailto:info@mainstreetai.com?subject=Fit%20Call&body=I'd%20like%20to%20book%20an%20AI%20Assessment%20call."
-          >
-            Loose threads, need alignment
-          </Pill>
+          <CardTitle>Loose threads, need alignment</CardTitle>
           <Subtitle>
-            We surface high-impact moves and hand you a shared roadmap.
+            <strong>Common scenarios:</strong>
+            <ul>
+              <li>Teams pursuing isolated pilots or adopting ad‑hoc tools</li>
+              <li>Scattered efforts and missed opportunities</li>
+              <li>Added risk without the reward</li>
+            </ul>
+            We’ll educate and align your team, surface what’s in motion and what should be in motion, and create a strategic roadmap.
           </Subtitle>
+          <Recommendation>
+            <strong>Our recommendation:</strong> Schedule an AI Assessment Call to map existing pilots and unify your roadmap.
+          </Recommendation>
+          <Pill href="mailto:info@mainstreetai.com?subject=Fit%20Call&body=I'd%20like%20to%20book%20an%20AI%20Assessment%20call.">
+            Book an AI Assessment Call
+          </Pill>
         </PillWrapper>
 
-        {/* 3 · Pilot under-delivering */}
+        {/* 3 · Under resourced */}
         <PillWrapper>
-          <Pill
-            href="mailto:info@mainstreetai.com?subject=Fit%20Call&body=I'd%20like%20to%20book%20a%20Fit%20call%20to%20improve%20our%20AI%20results."
-          >
-            Pilot under-delivering
-          </Pill>
+          <CardTitle>Under-resourced</CardTitle>
           <Subtitle>
-            Our Align → Jump Start → Evolve framework unlocks the ROI you expect.
+            <strong>Typical hurdles:</strong>
+            <ul>
+              <li>Lacking technical know-how</li>
+              <li>Small or non‑existent tech team</li>
+              <li>Limited capacity to progress AI initiatives</li>
+            </ul>
+            We augment your resources with expert AI engineers or a fractional head of AI/CTO.
           </Subtitle>
+          <Recommendation>
+            <strong>Our recommendation:</strong> Engage our AI Engineering services or fractional AI/CTO to rapidly scale your capabilities.
+          </Recommendation>
+          <Pill href="mailto:info@mainstreetai.com?subject=Fit%20Call&body=I'd%20like%20to%20book%20a%20Fit%20call%20to%20improve%20our%20AI%20results.">
+            Book a Fit Call
+          </Pill>
         </PillWrapper>
       </Pills>
     </Container>
