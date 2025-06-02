@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { Link } from 'react-scroll';
 
 const HeroSection = styled.section`
+  position: relative;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -46,6 +47,17 @@ const Subheadline = styled.p`
   }
 `;
 
+/* new italic sub-quote style */
+const Subquote = styled.p`
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0;
+  text-align: left;
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+`;
+
 const CTAButton = styled.button`
   padding: 1rem 2rem;
   font-size: 1.2rem;
@@ -64,22 +76,33 @@ const CTAButton = styled.button`
   }
 `;
 
-const Hero: React.FC = () => {
-  return (
-    <HeroSection id="home">
-      <HeroContent>
-        <Headline>Artificial Intelligence is the greatest opportunity of our lifetime. The time to act is now.</Headline>
-        <Subheadline>
-          Our top-tier AI engineers can inspire your team, accelerate adoption, and help tackle mission critical projects using state of the art models, tools, and products. Our motto is "prove that anything is possible" and we can't wait to prove it to you.
-        </Subheadline>
-        <Link to="contact" smooth={true} duration={500}>
-          <CTAButton>
-            Talk to an Engineer
-          </CTAButton>
-        </Link>
-      </HeroContent>
-    </HeroSection>
-  );
-};
+const Hero: React.FC = () => (
+  <HeroSection id="home">
+    <HeroContent>
+      {/* updated headline */}
+      <Headline>
+        The businesses leading in AI adoption are winning.
+      </Headline>
+
+      {/* updated sub-headline */}
+      <Subheadline>
+        The latest reports show that companies leading AI adoption see higher revenue growth and returns<sup>1</sup>.
+      </Subheadline>
+
+      <Subheadline>
+        If your team is behind, we can help.
+      </Subheadline>
+
+      {/* existing CTA button */}
+      <Link to="getting-started" smooth={true} duration={500}>
+        <CTAButton>Learn How to Get Started</CTAButton>
+      </Link>
+    </HeroContent>
+          {/* citation line (reference article, no external link) */}
+          <Subquote>
+        <em>[1] Source: Boston Consulting Group, “AI Adoption in 2024,” Oct 24 2024.</em>
+      </Subquote>
+  </HeroSection>
+);
 
 export default Hero; 

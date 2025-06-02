@@ -4,7 +4,7 @@ import { FaLightbulb, FaUsers, FaRocket, FaLaptopCode, FaCalendarAlt, FaVideo } 
 
 const WorkshopsSection = styled.section`
   padding: 5rem 1rem;
-  background-color: #f5f7fa;
+  background-color: #ffffff;
 `;
 
 const Container = styled.div`
@@ -332,10 +332,6 @@ const Workshops: React.FC = () => {
             "Very few times do I have that whole team together exploring something that is new to almost all of us. I heard nothing but GREAT feedback on your presentation, your composure, your kindness and excitement."
           </TestimonialText>
           <TestimonialAuthor>— CEO, Financial Technology Company</TestimonialAuthor>
-          <TestimonialText>
-            "It was like yesterday the world was black and white, and now everything is in color."
-          </TestimonialText>
-          <TestimonialAuthor>— Data Analyst, Distribution Company</TestimonialAuthor>
           
           <CTAButton href="mailto:info@mainstreetai.com?subject=Workshop%20Inquiry">
             Schedule a Workshop

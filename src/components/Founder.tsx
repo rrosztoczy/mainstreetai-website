@@ -4,7 +4,7 @@ import founderImage from '../assets/founder.jpg'; // You'll need to add your hea
 
 const FounderSection = styled.section`
   padding: 5rem 1rem;
-  background-color: white;
+  background-color: #f5f7fa;
 `;
 
 const Container = styled.div`
@@ -82,16 +82,15 @@ const Founder: React.FC = () => {
             <FounderName>Ryan Rosztoczy</FounderName>
             <FounderTitle>Founder & Chief AI Engineer</FounderTitle>
             <FounderVision>
-              The best future is one in which our businesses and people are superpowered by AI. 
-              Intelligence cannot be the exclusive domain of tech giants—it must be accessible, 
-              practical, and transformative for every organization. By educating our clients, creating true partnerships,
-              and deploying expert AI engineers we are helping businesses tranform into their future selves.
+              The best future is one in which our businesses and people are empowered with abundant intelligence. 
+              Artificial intelligence is just that - intelligence - and it will be transformative for every organization. By educating our clients, solving real problems,
+              and creating true partnerships we are helping businesses meet this once in a lifetime moment.
 
               Our clients will be the winners of the AI revolution, and so will we.
             </FounderVision>
             <FounderBio>
-              I founded Mainstreet AI to bridge the gap between cutting-edge AI capabilities and practical business applications. Before Mainstreet AI, 
-              I helped build Gather Learning where we worked with prestigous universities and cultural organizations to bring their learning platforms to life. As a software engineer and AI power user, I immediately realized that the same tools that were transforming software development were also poised to transform every industry.
+              I founded Mainstreet to bridge the gap between cutting-edge AI capabilities and practical business applications. Before Mainstreet AI, 
+              I helped build Gather Learning where we worked with top universities and cultural organizations to bring their learning platforms to life. AI is making technology, know-how and innovation accessible to all, and Mainstreet is along for the ride.
             </FounderBio>
           </ContentContainer>
         </FounderContainer>

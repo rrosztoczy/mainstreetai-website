@@ -37,7 +37,7 @@ const LogoText = styled.div<{ scrolled: boolean }>`
 
 const MenuItems = styled.div<{ isOpen: boolean }>`
   display: flex;
-  
+  align-items: center;
   @media (max-width: 768px) {
     flex-direction: column;
     position: absolute;
@@ -88,6 +88,24 @@ const MenuButton = styled.button<{ scrolled: boolean }>`
   }
 `;
 
+const CTAButtonLink = styled.a`
+  margin-left: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #5cb85c;
+  color: white;
+  border-radius: 4px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  &:hover {
+    background-color: #4cae4c;
+  }
+  @media (max-width: 768px) {
+    margin: 0.5rem 0;
+    padding: 0.5rem 2rem;
+  }
+`;
+
 const Navbar: React.FC = () => {
   const [scrolled, setScrolled] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
@@ -122,12 +140,18 @@ const Navbar: React.FC = () => {
         {isOpen ? <FaTimes /> : <FaBars />}
       </MenuButton>
       <MenuItems isOpen={isOpen}>
-        <MenuItem scrolled={scrolled} to="home" smooth={true} duration={500} onClick={() => setIsOpen(false)}>Home</MenuItem>
-        <MenuItem scrolled={scrolled} to="ai-engineering" smooth={true} duration={500} onClick={() => setIsOpen(false)}>AI Engineering</MenuItem>
+        {/* <MenuItem scrolled={scrolled} to="home" smooth={true} duration={500} onClick={() => setIsOpen(false)}>Home</MenuItem> */}
+        <MenuItem scrolled={scrolled} to="getting-started" smooth={true} duration={500} onClick={() => setIsOpen(false)}>Getting Started</MenuItem>
+        <MenuItem scrolled={scrolled} to="services" smooth={true} duration={500} onClick={() => setIsOpen(false)}>Services & Pricing</MenuItem>
+        {/* <MenuItem scrolled={scrolled} to="difference" smooth={true} duration={500} onClick={() => setIsOpen(false)}>Partnership + Technology</MenuItem> */}
         <MenuItem scrolled={scrolled} to="workshops" smooth={true} duration={500} onClick={() => setIsOpen(false)}>Workshops</MenuItem>
-        <MenuItem scrolled={scrolled} to="private-cloud" smooth={true} duration={500} onClick={() => setIsOpen(false)}>Private Cloud Solutions</MenuItem>
+        <MenuItem scrolled={scrolled} to="private-cloud" smooth={true} duration={500} onClick={() => setIsOpen(false)}>Technology</MenuItem>
+        <MenuItem scrolled={scrolled} to="partnership" smooth={true} duration={500} onClick={() => setIsOpen(false)}>How We Work</MenuItem>
         <MenuItem scrolled={scrolled} to="founder" smooth={true} duration={500} onClick={() => setIsOpen(false)}>About</MenuItem>
-        <MenuItem scrolled={scrolled} to="contact" smooth={true} duration={500} onClick={() => setIsOpen(false)}>Contact</MenuItem>
+        {/* <MenuItem scrolled={scrolled} to="faq" smooth={true} duration={500} onClick={() => setIsOpen(false)}>FAQ</MenuItem> */}
+        <CTAButtonLink href="mailto:info@mainstreetai.com?subject=AI%Fit%20Request">
+          Book a Fit Call
+        </CTAButtonLink>
       </MenuItems>
     </Nav>
   );
