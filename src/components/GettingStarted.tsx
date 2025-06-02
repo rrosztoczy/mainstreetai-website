@@ -51,6 +51,8 @@ const Pill = styled.a`
   }
 `;
 
+const PillScroll = Pill.withComponent(Link);
+
 const Subtitle = styled.div`
   font-size: 0.95rem;
   margin-top: 1rem;
@@ -120,14 +122,13 @@ const GettingStarted: React.FC = () => (
           <Recommendation>
             <strong>Our recommendation:</strong> Book one of our AI workshops and come out educated, confident, and ready to get started.
           </Recommendation>
-          <Pill
-            as={Link}
+          <PillScroll
             to="workshops"
             smooth={true}
             duration={500}
           >
             Learn about our workshops
-          </Pill>
+          </PillScroll>
         </PillWrapper>
 
         {/* 2 · Loose threads */}
@@ -145,14 +146,13 @@ const GettingStarted: React.FC = () => (
           <Recommendation>
             <strong>Our recommendation:</strong> Align your team, deploy state of the art tools, and integrate them into your business.
           </Recommendation>
-          <Pill
-            as={Link}
+          <PillScroll
             to="difference"
             smooth={true}
             duration={500}
           >
             Learn about our services
-          </Pill>
+          </PillScroll>
         </PillWrapper>
 
         {/* 3 · Under resourced */}

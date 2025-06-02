@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { TestimonialType } from '../types';
+import { TestimonialType } from '../types/index';
 
 const TestimonialsSection = styled.section`
   padding: 5rem 1rem;
