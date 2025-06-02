@@ -90,7 +90,7 @@ const Founder: React.FC = () => {
             </FounderVision>
             <FounderBio>
               I founded Mainstreet to bridge the gap between cutting-edge AI capabilities and practical business applications. Before Mainstreet AI, 
-              I helped build Gather Learning where we worked with prestigous universities and cultural organizations to bring their learning platforms to life. AI is making technology, know-how and innovation accessible to all, and Mainstreet is along for the ride.
+              I helped build Gather Learning where we worked with top universities and cultural organizations to bring their learning platforms to life. AI is making technology, know-how and innovation accessible to all, and Mainstreet is along for the ride.
             </FounderBio>
           </ContentContainer>
         </FounderContainer>

@@ -221,7 +221,7 @@ const Services: React.FC = () => (
       <BundleBanner>
         <BundleHeading>Launch Pack — Align + Jump Start <strong>(Save 10%)</strong></BundleHeading>
         <BundleText>
-          From no plan to a live pilot in six weeks. Limited to <strong>3 packs per quarter</strong>.
+          From no plan to integrated system in 15 weeks. Limited based on capacity.
           &nbsp;
           <a href="mailto:info@mainstreetai.com?subject=Launch%20Pack%20Inquiry">Lock my slot →</a>
         </BundleText>
