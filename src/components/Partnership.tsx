@@ -12,7 +12,7 @@ import {
 
 const Section = styled.section`
   padding: 5rem 1rem;
-  background-color: #f5f7fa;
+  background-color: #ffffff;
 `;
 
 const Container = styled.div`

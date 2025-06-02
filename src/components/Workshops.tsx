@@ -4,7 +4,7 @@ import { FaLightbulb, FaUsers, FaRocket, FaLaptopCode, FaCalendarAlt, FaVideo } 
 
 const WorkshopsSection = styled.section`
   padding: 5rem 1rem;
-  background-color: #f5f7fa;
+  background-color: #ffffff;
 `;
 
 const Container = styled.div`

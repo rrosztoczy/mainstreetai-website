@@ -4,7 +4,7 @@ import founderImage from '../assets/founder.jpg'; // You'll need to add your hea
 
 const FounderSection = styled.section`
   padding: 5rem 1rem;
-  background-color: white;
+  background-color: #f5f7fa;
 `;
 
 const Container = styled.div`

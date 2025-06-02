@@ -4,7 +4,7 @@ import { FaChartLine, FaCog, FaComments, FaSearch, FaUserShield } from 'react-ic
 
 const Section = styled.section`
   padding: 5rem 1rem;
-  background-color: white;
+  background-color: #f5f7fa;
 `;
 
 const Container = styled.div`
