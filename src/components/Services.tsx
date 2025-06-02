@@ -173,8 +173,8 @@ const Services: React.FC = () => (
             <Bullet>2-day onsite <strong>or</strong> 3–4 hr remote session</Bullet>
             <Bullet>Strategic roadmap and key opportunity assessment</Bullet>
           </BulletList>
-          <CTAButton href="mailto:info@mainstreetai.com?subject=Align%20Workshop">
-            Book Workshop
+          <CTAButton href="mailto:info@mainstreetai.com?subject=Workshop%20Availability">
+            Book a Workshop
           </CTAButton>
         </Card>
 
@@ -211,7 +211,7 @@ const Services: React.FC = () => (
             <Bullet>Advisory + feature hours (7.5 k)</Bullet>
             <Bullet>Ops-only care plan (5 k)</Bullet>
           </BulletList>
-          <CTAButton href="mailto:info@mainstreetai.com?subject=Fit%20Call">
+          <CTAButton href="mailto:info@mainstreetai.com?subject=AI%20Fit%20Call">
             Book a Fit Call
           </CTAButton>
         </Card>

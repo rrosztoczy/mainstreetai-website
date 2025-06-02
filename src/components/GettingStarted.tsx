@@ -47,6 +47,7 @@ const Pill = styled.a`
     background: #1a2a6c;
     color: white;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
   }
 `;
 
@@ -85,6 +86,7 @@ const PillWrapper = styled.div`
   flex-direction: column;
   justify-content: space-between;
   text-align: center;
+  cursor: pointer;
 `;
 
 const Recommendation = styled.p`
@@ -124,7 +126,7 @@ const GettingStarted: React.FC = () => (
             smooth={true}
             duration={500}
           >
-            Learn more about our workshops
+            Learn about our workshops
           </Pill>
         </PillWrapper>
 
@@ -149,7 +151,7 @@ const GettingStarted: React.FC = () => (
             smooth={true}
             duration={500}
           >
-            Learn more about our services
+            Learn about our services
           </Pill>
         </PillWrapper>
 

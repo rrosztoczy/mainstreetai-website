@@ -95,7 +95,7 @@ const Hero: React.FC = () => (
 
       {/* existing CTA button */}
       <Link to="getting-started" smooth={true} duration={500}>
-        <CTAButton>See How to Get Started</CTAButton>
+        <CTAButton>Learn How to Get Started</CTAButton>
       </Link>
     </HeroContent>
           {/* citation line (reference article, no external link) */}

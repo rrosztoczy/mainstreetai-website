@@ -37,7 +37,7 @@ const LogoText = styled.div<{ scrolled: boolean }>`
 
 const MenuItems = styled.div<{ isOpen: boolean }>`
   display: flex;
-  
+  align-items: center;
   @media (max-width: 768px) {
     flex-direction: column;
     position: absolute;
@@ -140,12 +140,15 @@ const Navbar: React.FC = () => {
         {isOpen ? <FaTimes /> : <FaBars />}
       </MenuButton>
       <MenuItems isOpen={isOpen}>
-        <MenuItem scrolled={scrolled} to="home" smooth={true} duration={500} onClick={() => setIsOpen(false)}>Home</MenuItem>
+        {/* <MenuItem scrolled={scrolled} to="home" smooth={true} duration={500} onClick={() => setIsOpen(false)}>Home</MenuItem> */}
         <MenuItem scrolled={scrolled} to="getting-started" smooth={true} duration={500} onClick={() => setIsOpen(false)}>Getting Started</MenuItem>
         <MenuItem scrolled={scrolled} to="services" smooth={true} duration={500} onClick={() => setIsOpen(false)}>Services & Pricing</MenuItem>
-        <MenuItem scrolled={scrolled} to="difference" smooth={true} duration={500} onClick={() => setIsOpen(false)}>Partnership + Technology</MenuItem>
-        <MenuItem scrolled={scrolled} to="partnership" smooth={true} duration={500} onClick={() => setIsOpen(false)}>Partnership</MenuItem>
+        {/* <MenuItem scrolled={scrolled} to="difference" smooth={true} duration={500} onClick={() => setIsOpen(false)}>Partnership + Technology</MenuItem> */}
+        <MenuItem scrolled={scrolled} to="workshops" smooth={true} duration={500} onClick={() => setIsOpen(false)}>Workshops</MenuItem>
+        <MenuItem scrolled={scrolled} to="private-cloud" smooth={true} duration={500} onClick={() => setIsOpen(false)}>Technology</MenuItem>
+        <MenuItem scrolled={scrolled} to="partnership" smooth={true} duration={500} onClick={() => setIsOpen(false)}>How We Work</MenuItem>
         <MenuItem scrolled={scrolled} to="founder" smooth={true} duration={500} onClick={() => setIsOpen(false)}>About</MenuItem>
+        {/* <MenuItem scrolled={scrolled} to="faq" smooth={true} duration={500} onClick={() => setIsOpen(false)}>FAQ</MenuItem> */}
         <CTAButtonLink href="mailto:info@mainstreetai.com?subject=AI%Fit%20Request">
           Book a Fit Call
         </CTAButtonLink>
