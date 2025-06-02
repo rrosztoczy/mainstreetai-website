@@ -180,17 +180,17 @@ const Services: React.FC = () => (
 
         {/* Jump Start */}
         <Card>
-          <Ribbon>$20-40 k scope</Ribbon>
+          <Ribbon>$30-80 k scope</Ribbon>
           <IconBox><FaRocket /></IconBox>
           <CardTitle>Jump Start — 12-Week Deploy & Integrate Sprint</CardTitle>
           <CardSub>
             Launch secure AI tools in your tenant—tied to two to three workflows.
           </CardSub>
           <BulletList>
-            <Bullet>12-week guided sprint</Bullet>
+            <Bullet>12 to 16 week sprint</Bullet>
             <Bullet>Integrations with key apps &amp; DBs</Bullet>
             <Bullet>Staff enablement mini-sessions</Bullet>
-            <Bullet>ROI &amp; governance playbook</Bullet>
+            <Bullet>ROI &amp; strategy playbook</Bullet>
           </BulletList>
           <CTAButton href="mailto:info@mainstreetai.com?subject=Jump%20Start%20Scope%20Call">
             Request Scope Call
