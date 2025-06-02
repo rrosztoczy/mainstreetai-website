@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Process from './components/Process'
-import Features from './components/Features'
+import PrivateCloud from './components/PrivateCloud'
 import Founder from './components/Founder'
 import FAQ from './components/FAQ'
 import CTAPrimary from './components/CTAPrimary'
@@ -23,9 +23,9 @@ const App: React.FC = () => {
       <GettingStarted />
       <Services />
       <Difference />
+      <PrivateCloud />
       <AIEngineering />
       <Workshops />
-      <Features />
       <Process />
       <Founder />
       <FAQ />
