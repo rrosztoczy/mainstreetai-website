@@ -120,7 +120,7 @@ const GettingStarted: React.FC = () => (
             </ul>
           </Subtitle>
           <Recommendation>
-            <strong>Our recommendation:</strong> Book one of our AI workshops and come out educated, confident, and ready to get started.
+            <strong>Our recommendation:</strong> Book a workshop today.
           </Recommendation>
           <PillScroll
             to="workshops"
@@ -144,7 +144,7 @@ const GettingStarted: React.FC = () => (
 
           </Subtitle>
           <Recommendation>
-            <strong>Our recommendation:</strong> Align your team, deploy state of the art tools, and integrate them into your business.
+            <strong>Our recommendation:</strong> Align + Jumpstart.
           </Recommendation>
           <PillScroll
             to="difference"
@@ -167,7 +167,7 @@ const GettingStarted: React.FC = () => (
             </ul>
           </Subtitle>
           <Recommendation>
-            <strong>Our recommendation:</strong> Engage our AI Engineering services or fractional AI/CTO to rapidly deploy and evovle your capabilities.
+            <strong>Our recommendation:</strong> Engage us as your AI operating partner.
           </Recommendation>
           <Pill
             href="mailto:info@mainstreetai.com?subject=AI%20Fit%20Call&body=I'd%20like%20to%20schedule%20a%20Fit%20Call%20to%20augment%20our%20AI%20resources%20and%20drive%20impact."
