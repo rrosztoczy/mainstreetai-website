@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-scroll';
 import { FaBars, FaTimes } from 'react-icons/fa';
+import { Link as RouterLink } from 'react-router-dom';
 import mediumLogo from '../assets/medium-logo.jpeg'; // Adjust path as needed
 
 const Nav = styled.nav<{ scrolled: boolean }>`
@@ -106,6 +107,25 @@ const CTAButtonLink = styled.a`
   }
 `;
 
+const RouterMenuItem = styled(RouterLink)<{ scrolled: boolean }>`
+  margin: 0 1rem;
+  cursor: pointer;
+  color: ${({ scrolled }) => scrolled ? '#333' : 'white'};
+  font-weight: 500;
+  transition: color 0.3s ease;
+  &:hover {
+    color: ${({ scrolled }) => scrolled ? '#1a2a6c' : '#fdbb2d'};
+  }
+  @media (max-width: 768px) {
+    margin: 0.5rem 0;
+    padding: 0.5rem 2rem;
+    color: #333;
+    &:hover {
+      color: #1a2a6c;
+    }
+  }
+`;
+
 const Navbar: React.FC = () => {
   const [scrolled, setScrolled] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
@@ -149,6 +169,9 @@ const Navbar: React.FC = () => {
         {/* <MenuItem scrolled={scrolled} to="partnership" smooth={true} duration={500} onClick={() => setIsOpen(false)}>How We Work</MenuItem> */}
         <MenuItem scrolled={scrolled} to="founder" smooth={true} duration={500} onClick={() => setIsOpen(false)}>About</MenuItem>
         {/* <MenuItem scrolled={scrolled} to="faq" smooth={true} duration={500} onClick={() => setIsOpen(false)}>FAQ</MenuItem> */}
+        <RouterMenuItem scrolled={scrolled} to="/private-ai-solutions" onClick={() => setIsOpen(false)}>
+          Private AI Solutions
+        </RouterMenuItem>
         <CTAButtonLink href="mailto:info@mainstreetai.com?subject=AI%Fit%20Request">
           Book a Fit Call
         </CTAButtonLink>

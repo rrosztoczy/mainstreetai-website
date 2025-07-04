@@ -188,17 +188,17 @@ Our process unfolds in three rapid steps:
    - Audit asset directories (`src/assets`, `public/logos`, `public/assets`) and plan new additions (playbook PDF, video).
    - Verify CI/CD and deployment settings (e.g. `gh-pages` in `package.json`).
 
-1. **Global Styles & Tokens**
+✅ 1. **Global Styles & Tokens**
    - Update `src/styles/Theme.ts` to include typography scales (e.g., `body-lg`, `text-sm`), colors, and breakpoints.
    - Adjust `GlobalStyles.ts` for base resets and mobile-first flow.
    - Wrap app in `ThemeProvider` (if not already). Ensure consistent styling architecture.
 
-2. **Content Data Model**
+✅ 2. **Content Data Model**
    - Created `src/content/landing.ts` with H1, H2 rotator, support line, CTAs, founder badge copy, cost savings, service tiles, timeline steps, and proof metrics.
    - Centralized PDF and video asset references and imported founder avatar.
    - Extended `src/types/index.ts` with interfaces for LandingContent, FirstFold, CostSavings, ServiceTile, TimelineStep, and ProofMetric.
 
-3. **First-Fold Section**
+✅ 3. **First-Fold Section**
    - Replace existing `<Hero>` component with a new `<FirstFold>` component:
      - `<Title>` for H1
      - `<RotatingHeadline>` for H2 variants
@@ -208,25 +208,25 @@ Our process unfolds in three rapid steps:
      - `<ScrollCue>` chevron for smooth scrolling
    - Update `App.tsx` imports: remove `Hero`, re-order sections to place `<FirstFold>` at the top.
 
-4. **Projected Cost Savings Callout**
+✅ 4. **Projected Cost Savings Callout**
    - Build `<CostSavings>` component showcasing annual savings calculation.
    - Style with background accent and emphasized numbers.
 
-5. **Service Tiles Section**
+✅ 5. **Service Tiles Section**
    - Replace existing `<Services>` component with `<ServiceTiles>`:
      - Develop `<ServiceTile>` child component (title, benefit, subline, link).
      - Render desktop grid and mobile stacked cards from content array.
    - Link each tile to its GIF demo or anchor.
    - Update `App.tsx`: remove `Services` import and add `<ServiceTiles>` in its place.
 
-6. **Timeline Section**
+✅ 6. **Timeline Section**
    - Replace existing `<GettingStarted>` component with `<Timeline>` wrapper:
      - Desktop: table layout
      - Mobile: card stack per step
    - Highlight step titles and emotional framing.
    - Update `App.tsx`: remove `GettingStarted` import and place `<Timeline>` in its position.
 
-7. **Proof Strip**
+✅ 7. **Proof Strip**
    - Implement `<ProofStrip>` with `<Counter>` children.
    - Use IntersectionObserver to animate counts on scroll into view.
 

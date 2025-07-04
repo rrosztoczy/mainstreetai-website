@@ -1,30 +1,23 @@
 import React from 'react'
 import Navbar from './components/Navbar'
-import FirstFold from './components/FirstFold'
-import CostSavings from './components/CostSavings'
-import ServiceTiles from './components/ServiceTiles'
-import Timeline from './components/Timeline'
-import ProofStrip from './components/ProofStrip'
-import FooterTools from './components/FooterTools'
-import Founder from './components/Founder'
-import FAQ from './components/FAQ'
+import LandingPage from './pages/LandingPage'
+import LegacyPage from './pages/LegacyPage'
 import GlobalStyles from './styles/GlobalStyles'
 
 import { ThemeProvider } from 'styled-components'
 import theme from './styles/Theme'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 const App: React.FC = () => (
   <ThemeProvider theme={theme}>
     <GlobalStyles />
-    <Navbar />
-    <FirstFold />
-    <CostSavings />
-    <ServiceTiles />
-    <Timeline />
-    <ProofStrip />
-    <FooterTools />
-    <Founder />
-    <FAQ />
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/private-ai-solutions" element={<LegacyPage />} />
+      </Routes>
+    </BrowserRouter>
   </ThemeProvider>
 )
 
