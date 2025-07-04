@@ -16,7 +16,19 @@ export const theme = {
   breakpoints: {
     mobile: '768px',
     tablet: '1024px',
-  }
+  },
+  fontSizes: {
+    h1: '2.5rem',
+    h2: '2rem',
+    h3: '1.5rem',
+    bodyLg: '1.125rem',
+    body: '1rem',
+    textSm: '0.875rem',
+  },
+  lineHeights: {
+    heading: 1.2,
+    body: 1.6,
+  },
 };
 
 export default theme; 

@@ -13,24 +13,25 @@ import Difference from './components/Difference'
 import Services from './components/Services'
 import GettingStarted from './components/GettingStarted'
 
-const App: React.FC = () => {
-  return (
-    <>
-      <GlobalStyles />
-      <Navbar />
-      <Hero />
-      <GettingStarted />
-      <Services />
-      <Difference />
-      <Workshops />
-      <PrivateCloud />
-      <Partnership />
-      <Founder />
-      <FAQ />
-      <CTAPrimary />
-      <CTASecondary />
-    </>
-  )
-}
+import { ThemeProvider } from 'styled-components'
+import theme from './styles/Theme'
+
+const App: React.FC = () => (
+  <ThemeProvider theme={theme}>
+    <GlobalStyles />
+    <Navbar />
+    <Hero />
+    <GettingStarted />
+    <Services />
+    <Difference />
+    <Workshops />
+    <PrivateCloud />
+    <Partnership />
+    <Founder />
+    <FAQ />
+    <CTAPrimary />
+    <CTASecondary />
+  </ThemeProvider>
+)
 
 export default App
