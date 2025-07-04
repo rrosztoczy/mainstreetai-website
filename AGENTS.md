@@ -230,10 +230,10 @@ Our process unfolds in three rapid steps:
    - Implement `<ProofStrip>` with `<Counter>` children.
    - Use IntersectionObserver to animate counts on scroll into view.
 
-8. **Footer Tools**
-   - Implement `<FooterTools>` component in `src/sections` to render tool logos as a styled flex container.
+✅ 8. **Footer Tools**
+   - Implement `<FooterTools>` component in `src/components` to render partner logos as a styled flex container.
    - Import logos from `/public/logos` and ensure consistent sizing and spacing.
-   - Update `App.tsx`: insert `<FooterTools>` above closing tags, removing any legacy footer markup.
+   - Update `App.tsx` and `LandingPage.tsx` to render `<FooterTools>` in the landing page flow.
 
 9. **Asset Integration**
    - Add `playbook.pdf` to `public/assets` and update link.
