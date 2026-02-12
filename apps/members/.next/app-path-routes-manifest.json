@@ -1,0 +1,21 @@
+{
+  "/api/auth/logout/route": "/api/auth/logout",
+  "/api/auth/login/route": "/api/auth/login",
+  "/api/auth/callback/route": "/api/auth/callback",
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/api/newsletter/subscribe/route": "/api/newsletter/subscribe",
+  "/content-assets/[scope]/[...path]/route": "/content-assets/[scope]/[...path]",
+  "/api/newsletter/buttondown/webhook/route": "/api/newsletter/buttondown/webhook",
+  "/(auth)/login/page": "/login",
+  "/(public)/newsletter/[slug]/page": "/newsletter/[slug]",
+  "/(members)/account/page": "/account",
+  "/(public)/newsletter/page": "/newsletter",
+  "/(public)/page": "/",
+  "/(public)/blog/page": "/blog",
+  "/(public)/blog/[slug]/page": "/blog/[slug]",
+  "/(public)/terms/page": "/terms",
+  "/(public)/privacy/page": "/privacy",
+  "/(public)/webinars/page": "/webinars",
+  "/(public)/webinars/[slug]/page": "/webinars/[slug]"
+}

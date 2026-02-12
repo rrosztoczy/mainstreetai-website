@@ -1,0 +1,21 @@
+{
+  "/api/auth/logout/route": "app/api/auth/logout/route.js",
+  "/api/auth/login/route": "app/api/auth/login/route.js",
+  "/api/auth/callback/route": "app/api/auth/callback/route.js",
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/newsletter/subscribe/route": "app/api/newsletter/subscribe/route.js",
+  "/content-assets/[scope]/[...path]/route": "app/content-assets/[scope]/[...path]/route.js",
+  "/api/newsletter/buttondown/webhook/route": "app/api/newsletter/buttondown/webhook/route.js",
+  "/(auth)/login/page": "app/(auth)/login/page.js",
+  "/(public)/newsletter/[slug]/page": "app/(public)/newsletter/[slug]/page.js",
+  "/(members)/account/page": "app/(members)/account/page.js",
+  "/(public)/newsletter/page": "app/(public)/newsletter/page.js",
+  "/(public)/page": "app/(public)/page.js",
+  "/(public)/blog/page": "app/(public)/blog/page.js",
+  "/(public)/blog/[slug]/page": "app/(public)/blog/[slug]/page.js",
+  "/(public)/terms/page": "app/(public)/terms/page.js",
+  "/(public)/privacy/page": "app/(public)/privacy/page.js",
+  "/(public)/webinars/page": "app/(public)/webinars/page.js",
+  "/(public)/webinars/[slug]/page": "app/(public)/webinars/[slug]/page.js"
+}

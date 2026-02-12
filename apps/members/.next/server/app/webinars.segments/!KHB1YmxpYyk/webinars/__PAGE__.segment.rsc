@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[8500,["500","static/chunks/500-5d45efbf86b8d36e.js","667","static/chunks/app/(public)/webinars/page-85115dceb59fc79a.js"],""]
+3:I[484,[],"OutletBoundary"]
+4:"$Sreact.suspense"
+0:{"buildId":"wHesTqxUw9_teXJrQX3XS","rsc":["$","$1","c",{"children":[["$","main",null,{"children":[["$","header",null,{"children":[["$","h1",null,{"children":"Webinars"}],["$","p",null,{"className":"lead","children":"Recorded sessions with decks, demos, and post-event notes."}]]}],["$","section",null,{"className":"list-grid","children":[null,[["$","article","winning-the-ai-future",{"className":"card","children":[["$","div",null,{"className":"eyebrow","children":"Jan 4, 2026"}],["$","h2",null,{"className":"card-title","children":["$","$L2",null,{"href":"/webinars/winning-the-ai-future","children":"Winning the AI Future"}]}],["$","p",null,{"className":"card-summary","children":"Designing your business to thrive with AI: a strategic framework covering the capability curve, the AI environment, and the operating system required for compounding adoption."}],["$","span",null,{"className":"card-link","children":"View recap"}]]}]]]}]]}],null,["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
+5:null

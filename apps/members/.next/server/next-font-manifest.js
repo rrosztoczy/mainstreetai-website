@@ -1,0 +1,1 @@
+self.__NEXT_FONT_MANIFEST='{"pages":{},"app":{"/Users/ryanrosztoczy/Development/mainstreetai-website/apps/members/app/layout":["static/media/97ac91773d3121b2-s.p.woff2","static/media/eaead17c7dbfcd5d-s.p.woff2","static/media/26d4368bf94c0ec4-s.p.woff2"]},"appUsingSizeAdjust":true,"pagesUsingSizeAdjust":false}';

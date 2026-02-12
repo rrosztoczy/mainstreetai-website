@@ -12,6 +12,7 @@ import Workshops from './components/Workshops'
 import Difference from './components/Difference'
 import Services from './components/Services'
 import GettingStarted from './components/GettingStarted'
+import WhatWeBuild from './components/WhatWeBuild'
 
 const App: React.FC = () => {
   return (
@@ -19,6 +20,7 @@ const App: React.FC = () => {
       <GlobalStyles />
       <Navbar />
       <Hero />
+      <WhatWeBuild />
       <GettingStarted />
       <Services />
       <Difference />

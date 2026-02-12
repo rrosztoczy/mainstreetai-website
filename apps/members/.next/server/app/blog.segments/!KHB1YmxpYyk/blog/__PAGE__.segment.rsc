@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[8500,["500","static/chunks/500-5d45efbf86b8d36e.js","864","static/chunks/app/(public)/blog/page-85115dceb59fc79a.js"],""]
+3:I[484,[],"OutletBoundary"]
+4:"$Sreact.suspense"
+0:{"buildId":"wHesTqxUw9_teXJrQX3XS","rsc":["$","$1","c",{"children":[["$","main",null,{"children":[["$","header",null,{"children":[["$","h1",null,{"children":"Blog"}],["$","p",null,{"className":"lead","children":"Field notes, systems thinking, and applied AI work from the MainstreetAI team."}]]}],["$","section",null,{"className":"list-grid","children":[null,[["$","article","webinar-asset:winning-the-ai-future",{"className":"card","children":[["$","div",null,{"className":"card-meta-row","children":[["$","div",null,{"className":"eyebrow","children":"Jan 28, 2026"}],["$","span",null,{"className":"type-pill","children":"Webinar assets"}]]}],["$","h2",null,{"className":"card-title","children":["$","$L2",null,{"href":"/blog/winning-the-ai-future","children":"Winning the AI Future (Webinar assets)"}]}],["$","p",null,{"className":"card-summary","children":"A strategic framework for designing your business to win with AI."}],["$","span",null,{"className":"card-link","children":"Read more"}]]}]]]}]]}],null,["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
+5:null

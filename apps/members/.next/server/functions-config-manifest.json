@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "functions": {
+    "/": {},
+    "/account": {},
+    "/api/auth/callback": {},
+    "/api/auth/login": {},
+    "/api/auth/logout": {},
+    "/api/newsletter/buttondown/webhook": {},
+    "/api/newsletter/subscribe": {},
+    "/blog": {},
+    "/blog/[slug]": {},
+    "/content-assets/[scope]/[...path]": {},
+    "/newsletter": {},
+    "/newsletter/[slug]": {},
+    "/webinars": {},
+    "/webinars/[slug]": {}
+  }
+}

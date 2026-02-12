@@ -1,0 +1,18 @@
+{
+  "status": 307,
+  "headers": {
+    "location": "/blog",
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/(public)/layout,_N_T_/(public)/newsletter/layout,_N_T_/(public)/newsletter/page,_N_T_/newsletter"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/!KHB1YmxpYyk/newsletter/__PAGE__",
+    "/!KHB1YmxpYyk/newsletter",
+    "/!KHB1YmxpYyk",
+    "/_index",
+    "/_head"
+  ]
+}

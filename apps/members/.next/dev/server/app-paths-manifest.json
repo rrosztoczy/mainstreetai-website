@@ -1,0 +1,7 @@
+{
+  "/(public)/page": "app/(public)/page.js",
+  "/(public)/blog/page": "app/(public)/blog/page.js",
+  "/(public)/blog/[slug]/page": "app/(public)/blog/[slug]/page.js",
+  "/(public)/webinars/page": "app/(public)/webinars/page.js",
+  "/(public)/webinars/[slug]/page": "app/(public)/webinars/[slug]/page.js"
+}
