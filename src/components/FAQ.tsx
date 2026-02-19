@@ -73,7 +73,7 @@ const faqItems: FAQItemType[] = [
   {
     id: 1,
     question: "What makes Mainstreet AI different from other AI solutions?",
-    answer: "We are not a Saas company - we are a services company the believes in true partnership. The technology we deploy becomes yours - it is our job to help you capitalize on the opportunities it creates and continue to evolve as your business grows."
+    answer: "We are not a SaaS company - we are a services company that believes in true partnership. The technology we deploy becomes yours - it is our job to help you capitalize on the opportunities it creates and continue to evolve as your business grows."
   },
   {
     id: 2,
@@ -83,7 +83,7 @@ const faqItems: FAQItemType[] = [
   {
     id: 3,
     question: "How long does it take to implement your AI solutions?",
-    answer: "Typically, our initial assessment and proof of concepts can be completed within weeks, with more complex projects taking 3-6 months. Organizational adoption can be slower, with mature adoption occuring over a 9-18 month span. We provide a detailed timeline during our initial consultation."
+    answer: "Typically, our initial assessment and proof of concept can be completed within weeks, with more complex projects taking 3-6 months. Organizational adoption can be slower, with mature adoption occurring over a 9-18 month span. We provide a detailed timeline during our initial consultation."
   },
   {
     id: 4,

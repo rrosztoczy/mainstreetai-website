@@ -148,7 +148,7 @@ const Partnership: React.FC = () => (
               <StepTitle>Operate & Enhance</StepTitle>
             </TitleRow>
             <Text>
-              Monthly strategic &amp; progress reviews join ongoing support and continuious feature sprints mean AI never leaves you behind.
+              Monthly strategic &amp; progress reviews, ongoing support, and continuous feature sprints mean AI never leaves you behind.
             </Text>
           </StepContent>
         </Step>

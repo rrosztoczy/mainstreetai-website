@@ -113,7 +113,7 @@ const Difference: React.FC = () => (
       </SectionHeading>
 
       <SectionLead>
-        We bring a start-up pace, long-term discipline, and partnership focus to our work. Our approach mean we see a lot of challenges, solutions, and innovations. Everything we learn gets incorporated into our model platform - which means you benefit from the experiences of many.
+        We bring a start-up pace, long-term discipline, and partnership focus to our work. Our approach means we see a lot of challenges, solutions, and innovations. Everything we learn gets incorporated into our model platform - which means you benefit from the experiences of many.
       </SectionLead>
 
       <Grid>
@@ -129,7 +129,7 @@ const Difference: React.FC = () => (
             <Bullet>Our engineers embed with your team to solve the right problems</Bullet>
             <Bullet>Decisions, actions and solutions are communicated automatically</Bullet>
           </BulletList>
-          <CTAButton to="process" smooth={true} duration={500}>
+          <CTAButton to="partnership" smooth={true} duration={500}>
             Learn how we work
           </CTAButton>
         </Card>

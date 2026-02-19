@@ -149,7 +149,7 @@ const Navbar: React.FC = () => {
         {/* <MenuItem scrolled={scrolled} to="partnership" smooth={true} duration={500} onClick={() => setIsOpen(false)}>How We Work</MenuItem> */}
         <MenuItem scrolled={scrolled} to="founder" smooth={true} duration={500} onClick={() => setIsOpen(false)}>About</MenuItem>
         {/* <MenuItem scrolled={scrolled} to="faq" smooth={true} duration={500} onClick={() => setIsOpen(false)}>FAQ</MenuItem> */}
-        <CTAButtonLink href="mailto:info@mainstreetai.com?subject=AI%Fit%20Request">
+        <CTAButtonLink href="mailto:info@mainstreetai.com?subject=AI%20Fit%20Request">
           Book a Fit Call
         </CTAButtonLink>
       </MenuItems>
